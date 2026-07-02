@@ -1,0 +1,25 @@
+import java.util.Scanner; 
+
+class Codechef {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
+        
+        // Read user input
+        int temperature = scanner.nextInt(); 
+
+        // Check if temperature is above 30
+        if (temperature > 30) {
+            System.out.println("It's hot outside! Stay hydrated.");
+        } 
+        // Check if temperature is between 10 and 30 (inclusive)
+        else if (temperature >= 10) {
+            System.out.println("The weather is moderate. Enjoy your day!");
+        } 
+        // Handles temperature below 10
+        else {
+            System.out.println("It's cold outside! Wear warm clothes.");
+        }
+
+        scanner.close(); 
+    }
+}

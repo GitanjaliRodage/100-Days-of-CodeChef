@@ -1,0 +1,14 @@
+class Codechef {
+    public static void main(String[] args) {
+
+        String correctPassword = "JavaRocks";
+        String enteredPassword = "JavaRocks";
+
+        // The condition checks if the passwords are NOT equal
+        while (!enteredPassword.equals(correctPassword)) {
+            System.out.println("Invalid Password");
+        }
+
+        System.out.println("Access Granted!");
+    }
+}

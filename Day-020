@@ -1,0 +1,17 @@
+class Codechef {
+    public static void main(String[] args) {
+        // Given Variables
+        String studentName = "John Doe";  
+        int mathMarks = 85;  
+        int scienceMarks = 90;  
+        int englishMarks = 70;  
+
+        // Calculate total score
+        int totalScore = mathMarks + scienceMarks + englishMarks;
+
+        // Output the student information and total score
+        System.out.println("Student Name: " + studentName);
+        System.out.println("Total Score: " + totalScore);
+        System.out.println("Score calculation completed.");
+    }
+}

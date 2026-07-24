@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        double depthReached = 3452.78;
+        boolean vehicleExploring = true;
+
+        System.out.println("Depth Reached: " + depthReached + " meters");
+        System.out.println("Vehicle Exploring: " + vehicleExploring);
+    }
+}

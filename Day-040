@@ -1,0 +1,18 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// Create a Scanner object to read input
+		Scanner sc = new Scanner(System.in);
+		
+		// Read the integer N
+		int n = sc.nextInt();
+		
+		// Calculate and print the total number of courses (2 * N)
+		System.out.println(2 * n);
+	}
+}

@@ -1,0 +1,8 @@
+# Read X and Y from input
+x, y = map(int, input().split())
+
+# Check if Alice's score is at least twice of Bob's score
+if x >= 2 * y:
+    print("Yes")
+else:
+    print("No")

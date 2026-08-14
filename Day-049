@@ -1,0 +1,9 @@
+# cook your dish here
+# Accept an integer input and store it in N
+N = int(input())
+
+# Accept a string input and store it in S
+S = input()
+
+# Output the integer and string on the same line
+print(N, S)

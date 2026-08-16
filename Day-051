@@ -1,0 +1,5 @@
+t = int(input())
+for i in range(t):
+    X = int(input())
+    # Multiply the number of sets by 15 to get total squats
+    print(X * 15)

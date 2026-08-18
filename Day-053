@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int t = scanner.nextInt();
+        while (t-- > 0) {
+            int n = scanner.nextInt();
+            String s = scanner.next();
+            
+            int aliceScore = 0;
+            int bobScore = 0;
+            char server = 'A'; // Alice is the server initially
+            
+            for (int i = 0; i < n; i++) {
+                char winner = s.charAt(i);
+                
+                if (winner == server) {
+                    // If the server wins the point, their score increases
+                    if (server == 'A') {
+                        aliceScore++;
+                    } else {
+                        bobScore++;
+                    }
+                } else {
+                    // If the receiver wins, they become the server for the next turn
+                    server = winner;
+                }
+            }
+            
+            System.out.println(aliceScore + " " + bobScore);
+        }
+        scanner.close();
+    }
+}

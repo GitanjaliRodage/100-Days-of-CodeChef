@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+class Codechef
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Read the number of test cases
+        if (scanner.hasNextInt()) {
+            int t = scanner.nextInt();
+            
+            while (t-- > 0) {
+                int x = scanner.nextInt();
+                int y = scanner.nextInt();
+                
+                // Each person needs 2 buckets of water (2 * y liters)
+                int waterPerPerson = 2 * y;
+                
+                // Maximum number of people is total water divided by water per person
+                int maxPeople = x / waterPerPerson;
+                
+                System.out.println(maxPeople);
+            }
+        }
+        
+        scanner.close();
+    }
+}

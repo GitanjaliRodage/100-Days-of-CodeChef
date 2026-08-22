@@ -1,0 +1,3 @@
+var firstName = "Code";
+var lastName = "Chef";
+console.log(firstName, lastName);

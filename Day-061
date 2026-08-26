@@ -1,0 +1,13 @@
+# Update your code below this line
+# Initialize the side of the square
+s = 14
+
+# Calculate the area (side * side)
+area = s * s
+
+# Calculate the cost of painting (area * 7)
+cost = area * 7
+
+# Output the area and cost on separate lines
+print(area)
+print(cost)

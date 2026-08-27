@@ -1,0 +1,11 @@
+# cook your dish here
+# Initialize the variables
+a = -50
+b = 40
+
+# Compute the total (sum) and product
+total = a + b
+product = a * b
+
+# Output the results on a single line separated by a space
+print(total, product)

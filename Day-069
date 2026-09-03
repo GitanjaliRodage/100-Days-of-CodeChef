@@ -1,0 +1,20 @@
+# Declare the starting balance as a float
+starting_balance = 5234.78  
+
+# Declare the salary deposit as a float
+salary_deposit = 1750.50  
+
+# Declare the grocery cost as a float
+grocery_cost = 345.67  
+
+# Declare the utility bill as a float
+utility_bill = 420.89  
+
+# Declare the bonus deposit as a float
+bonus = 200.25  
+
+# Calculate the final account balance by adding and subtracting transactions
+final_balance = starting_balance + salary_deposit - grocery_cost - utility_bill + bonus  
+
+# Print the final account balance
+print(final_balance)  

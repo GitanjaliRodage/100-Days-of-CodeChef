@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+</head>
+<body>
+    <h1>Cafe Menu</h1>
+    <p>Today’s special: <b>Chocolate Cake</b></p>
+    <p>Try our new <b>iced coffee</b> for a refreshing break!</p>
+</body>
+</html>

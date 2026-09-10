@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Codechef {
+    public static void main(String[] args) throws java.lang.Exception {
+        Scanner scanner = new Scanner(System.in);
+        
+        int t = scanner.nextInt();
+        while (t-- > 0) {
+            int x = scanner.nextInt();
+            int y = scanner.nextInt();
+            int z = scanner.nextInt();
+            
+            // Time taken for the bullet to reach the goomba
+            int bulletTime = y / x;
+            
+            // Minimum wait time before shooting
+            int waitTime = Math.max(0, z - bulletTime);
+            
+            System.out.println(waitTime);
+        }
+        
+        scanner.close();
+    }
+}

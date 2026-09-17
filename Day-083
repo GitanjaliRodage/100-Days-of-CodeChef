@@ -1,0 +1,14 @@
+# Given Movie Data
+movie_title = "tHe aVENGerS: eNDgAMe"
+promo_message = "Don't Miss The Epic Finale!"
+disclaimer = "TERMS AND CONDITIONS APPLY."
+
+# Formatting the strings
+formatted_title = movie_title.title()  # Converts to title case
+formatted_promo = promo_message.upper()  # Converts to uppercase
+formatted_disclaimer = disclaimer.lower()  # Converts to lowercase
+
+# Display the results
+print(formatted_title)
+print(formatted_promo)
+print(formatted_disclaimer)

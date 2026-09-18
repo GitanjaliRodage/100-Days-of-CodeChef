@@ -1,0 +1,12 @@
+# Step 1: Declare the product name with trailing '$' symbols
+product_name = "Shampoo$$$"
+
+# Step 2: Remove trailing '$' symbols using rstrip()
+cleaned_product = product_name.rstrip('$')
+
+# Step 3: Print the cleaned product name
+print(cleaned_product)
+
+# Step 4: Find and print the length of the cleaned product name
+product_length = len(cleaned_product)
+print(product_length)

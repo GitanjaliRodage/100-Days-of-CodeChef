@@ -1,0 +1,29 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Check if there is an integer for the number of test cases
+        if (scanner.hasNextInt()) {
+            int t = scanner.nextInt();
+            
+            // Loop through each test case
+            while (t-- > 0) {
+                int n = scanner.nextInt();
+                
+                // Calculate square root and cast to int to round down
+                int ans = (int) Math.sqrt(n);
+                
+                // Print the result
+                System.out.println(ans);
+            }
+        }
+        
+        scanner.close();
+    }
+}

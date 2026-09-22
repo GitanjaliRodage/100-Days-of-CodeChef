@@ -1,0 +1,11 @@
+# Declare the product description
+description = "This mobile has a powerful processor. Mobile gaming is smooth on this mobile."
+
+# Convert the description to lowercase
+lower_description = description.lower()
+
+# Replace 'mobile' with 'smartphone'
+modified_description = lower_description.replace("mobile", "smartphone")
+
+# Print the modified description
+print(modified_description)

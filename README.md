@@ -1,10 +1,10 @@
-# 🚀 100 Days of CodeChef
+# 🚀 500 Days of CodeChef
 
-Welcome to my **100 Days of CodeChef** challenge!
+Welcome to my **500 Days of CodeChef** challenge!
 
 ## 🎯 Goal
 
-- Solve CodeChef problems consistently for 100 days.
+- Solve CodeChef problems consistently for 500 days.
 - Strengthen Data Structures & Algorithms.
 - Improve competitive programming skills.
 - Enhance Java programming proficiency.
@@ -39,7 +39,7 @@ Each `Day-XXX` folder contains the Java solutions for the problems solved on tha
 | Day 004 | ⏳ |
 | Day 005 | ⏳ |
 | ... | ... |
-| Day 100 | ⏳ |
+| Day 500 | ⏳ |
 
 ## 📈 Purpose
 
